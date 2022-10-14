@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ruda:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(51,44,29);
+background: linear-gradient(68deg, rgba(51,44,29,1) 0%, rgba(180,166,121,1) 35%);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #fad852d5;
+    width: 25rem;
+    height: 65%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5%;
+    margin-top: 3rem;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 11rem;
+    background-color: #FEE992;
+    height: 7rem;
+    gap: 0.5rem;
+    border-radius: 10%;
+}
+
+.info-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+img {
+    width: 4rem;
+    transition: 500ms;
+}
+
+img:hover:not(.react) {
+    transform: scale(1.2);
+}
+
+p {
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style: circle;
+}
+
+li{
+    font-size: 0.85rem;
+    margin-left: 0.5rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.react{
+    width: 13rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2rem;
+}
+
+h1{
+    font-family: 'Ruda', sans-serif;
+    width: 16rem;
+    margin-left: 5rem;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+.myclass-appear {
+    opacity: 0;
+}
+
+.myclass-appear-active {
+    opacity: 1;
+    transition: opacity 4000ms;
+}
+
+.myclass-enter{
+    opacity: 0;
+}
+
+.myclass-enter-active{
+    opacity: 1;
+    transition: opacity 4000ms;
+}
+
+.myclass-enter-done{
+    opacity: 1;
+}
+
+.myclass-exit {
+    opacity: 1;
+}
+
+.myclass-exit-active {
+    opacity: 0;
+    transition: opacity 4000ms;
+}
+
+.myclass-exit-done {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 1600px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
+    html {
+      font-size: 15px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+    @media screen and (max-width: 576px) {
+      html {
+        font-size: 13px;
+      }
+    }
+    
+    @media screen and (max-width: 400px) {
+        html {
+          font-size: 12px;
+        }
+      }
