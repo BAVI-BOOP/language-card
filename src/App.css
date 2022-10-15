@@ -49,6 +49,7 @@ background: linear-gradient(68deg, rgba(51,44,29,1) 0%, rgba(180,166,121,1) 35%)
 img {
     width: 4rem;
     transition: 500ms;
+
 }
 
 img:hover:not(.react) {
@@ -75,8 +76,7 @@ li{
 .react{
     width: 13rem;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 44%;
     margin-top: 2rem;
 }
 
@@ -97,29 +97,36 @@ h1{
 }
 
 .myclass-enter{
-    opacity: 0;
+    /* opacity: 0; */
+    transform: rotate(0deg);
 }
 
 .myclass-enter-active{
-    opacity: 1;
+    /* opacity: 1; */
     transition: opacity 4000ms;
+    transition: transform 3000s;
 }
 
 .myclass-enter-done{
-    opacity: 1;
+    /* opacity: 1; */
+    transform: rotate(0deg);
 }
 
 .myclass-exit {
-    opacity: 1;
+    /* opacity: 1; */
+    transform: rotate(0deg);
 }
 
 .myclass-exit-active {
-    opacity: 0;
+    /* opacity: 0; */
     transition: opacity 4000ms;
+    transform: rotate(360deg);
+    transition: transform 3000ms;
 }
 
 .myclass-exit-done {
-    opacity: 1;
+    /* opacity: 1; */
+    transform: rotate(360deg);
 }
 
 
