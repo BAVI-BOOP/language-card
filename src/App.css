@@ -11,6 +11,9 @@ body{
     width: 100vw;
     background: rgb(51,44,29);
 background: linear-gradient(68deg, rgba(51,44,29,1) 0%, rgba(180,166,121,1) 35%);
+display: flex;
+justify-content: center;
+margin-top: 2.3rem;
 }
 
 .container {
@@ -75,9 +78,7 @@ li{
 
 .react{
     width: 13rem;
-    position: absolute;
-    left: 44%;
-    margin-top: 2rem;
+    margin: auto;
 }
 
 h1{
