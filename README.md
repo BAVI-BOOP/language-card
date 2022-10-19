@@ -22,7 +22,7 @@ The aim of this project is to create a language card with react.
 
 ## Screenshot
 <p align="center">
-<a href="https://melodic-lamington-33f3a5.netlify.app/"><img src="language.gif" alt="screenshot"></a>
+<a href="https://melodic-lamington-33f3a5.netlify.app/"><img src="card.gif" alt="screenshot"></a>
 </p>
 
 
