@@ -49,5 +49,3 @@ The aim of this project is to create a language card with react.
 - Author - [Ahmet]
 
 <center> &#8987; Happy Coding  &#9997; </center>
-
-
